@@ -2,9 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import { withAuthenticator, Authenticator } from 'aws-amplify-react';
+
+Amplify.configure(awsconfig);
+
+
 function App() {
   return (
     <div className="App">
+      <Authenticator usernameAttributes='email'/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -25,4 +33,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App, true);
