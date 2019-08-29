@@ -10,10 +10,7 @@ const awsmobile = {
     "aws_appsync_graphqlEndpoint": "https://hmiogiobhjas3ivwdd2aqs6uqe.appsync-api.us-east-1.amazonaws.com/graphql",
     "aws_appsync_region": "us-east-1",
     "aws_appsync_authenticationType": "API_KEY",
-    "aws_appsync_apiKey": "da2-3s2b3orerrgyhn7wijgmdwzi4u",
-    "aws_content_delivery_bucket": "amplifyapp-20190829191101-hostingbucket-test",
-    "aws_content_delivery_bucket_region": "us-east-1",
-    "aws_content_delivery_url": "http://amplifyapp-20190829191101-hostingbucket-test.s3-website-us-east-1.amazonaws.com"
+    "aws_appsync_apiKey": "da2-3s2b3orerrgyhn7wijgmdwzi4u"
 };
 
 
